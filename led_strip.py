@@ -42,3 +42,5 @@ class LedStrip:
         if show:
             self._led_strip.show()
 
+    def size(self):
+        return self._led_strip.num_leds
